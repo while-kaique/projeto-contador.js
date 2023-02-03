@@ -1,0 +1,47 @@
+    *{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    height: 93.2vh;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgb(216, 8, 8), rgb(240, 60, 60), rgb(112, 27, 27));
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 2.4em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover {
+    display: inline;
+    font-size: 1.4em;
+    color: rgb(170, 235, 255);
+    text-decoration: underline;
+
+    transition: 1s;
+}
+
+a:not(:hover) {
+    font-size: 1em;
+    color: aliceblue;
+    transition: 1s;
+}
+
+div#body{
+    box-shadow: 2px 0.1px 3px rgba(0, 0, 0, 0.541) inset;
+    color: black;
+    border-radius: 10px;
+    padding: 25px;
+    margin: auto;
+    background-color: aliceblue;
+    width: 40%;
+}
